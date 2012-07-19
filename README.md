@@ -33,17 +33,13 @@ TTFRender 就是为了解决这一问题而出现的。我们只需要提供特�
 模块 Helper Functions.
 
     * _unicode
-
     返回 string 的 unicode 值。
 
     * get_ttf_file
-
     根据字体返回指定的字体文件。
 
     * get_token_list
-
     返回字列表
 
 * TTFRender/parser.py
-
 TTFRender Core Module.
