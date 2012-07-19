@@ -1,5 +1,4 @@
 ## TTFRender Module ##
---------------------------
 
 TTFRender Module 是中文 WebFont && WebFont Loader 的解决方案。WebFont 作为 css3
 中比较好的技术被国外广为应用，配合 google webfont loader 方案能很好的实现页面字
@@ -12,7 +11,6 @@ TTFRender 就是为了解决这一问题而出现的。我们只需要提供特�
 表，然后便可以生成符合应用的字符，有效的节省了带宽与时间，并提升了 UE。
 
 #### How To Use ####
----------------------------
 
     #-*- coding: utf-8 -*-
     
@@ -27,7 +25,6 @@ TTFRender 就是为了解决这一问题而出现的。我们只需要提供特�
 
 
 #### API ####
-----------------------------
 
 * TTFRender/__init__.py
 导出模块功能。
@@ -36,11 +33,17 @@ TTFRender 就是为了解决这一问题而出现的。我们只需要提供特�
 模块 Helper Functions.
 
     * _unicode
+
     返回 string 的 unicode 值。
+
     * get_ttf_file
+
     根据字体返回指定的字体文件。
+
     * get_token_list
+
     返回字列表
 
 * TTFRender/parser.py
+
 TTFRender Core Module.
