@@ -34,12 +34,12 @@ TTFRender 就是为了解决这一问题而出现的。我们只需要提供特�
 
 这样便可以在页面中使用你想要使用的字体了。不过这里有两个问题需要特别注意下：
     
-    * 浏览器兼容性
-    font-face 是 css3 重新引入的(css2引入。css2.1废弃).在 [CSS3 Support][CSS3 Support] 上可以看到 css3 font-face 对各浏览器的支持。虽然在上面的 url 中显示 IE9 以上才支持
-    font-face。但是在 IE6,IE7,IE8 中也有自己的实现，也就是说我们也可以在旧版 IE 中使用 font-face。IE唯一存在的兼容性问题是字体文件需要使用 EOT 格式。FF,Chrome,Opera,Safari 既可以使用
-    TTF，也可以使用 OTF 字体。需要注意的是 ios4.1 以前的设备需要使用 SVG 字体。
+  * 浏览器兼容性
+  font-face 是 css3 重新引入的(css2引入。css2.1废弃).在 [CSS3 Support][CSS3 Support] 上可以看到 css3 font-face 对各浏览器的支持。虽然在上面的 url 中显示 IE9 以上才支持
+  font-face。但是在 IE6,IE7,IE8 中也有自己的实现，也就是说我们也可以在旧版 IE 中使用 font-face。IE唯一存在的兼容性问题是字体文件需要使用 EOT 格式。FF,Chrome,Opera,Safari 既可以使用
+  TTF，也可以使用 OTF 字体。需要注意的是 ios4.1 以前的设备需要使用 SVG 字体。
 
-    * 尽管通过上面的代码对中文字体进行了很大程度的缩小。但是字体文件依然很大，对 UE 影响依然很严重。
+  * 尽管通过上面的代码对中文字体进行了很大程度的缩小。但是字体文件依然很大，对 UE 影响依然很严重。
 
 #### Alternative Use ####
 
