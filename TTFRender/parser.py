@@ -23,6 +23,6 @@ def generate(token_list, font_name, filename):
             fnt.removeGlyph(w)
         else:
             print unichr(w.unicode)
-
-    fnt.generate(filename)
+    #output font to the folder
+    fnt.generate("./out-font/"+filename)
     fnt.close()
