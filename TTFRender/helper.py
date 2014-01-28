@@ -10,7 +10,7 @@ import re
 #TODO: Make a Adapter to Get the TTF FILE of Specified Font
 def get_ttf_file(font_name):
     FONT_DIRECTORY = os.path.abspath(os.path.dirname(__file__))+"/fonts/"
-    return _unicode(FONT_DIRECTORY+"钟齐吴嘉睿手写字.ttf")
+    return _unicode(FONT_DIRECTORY+font_name+".ttf")
 
 # Get the Unicode of Specified Word
 def _unicode(w):
