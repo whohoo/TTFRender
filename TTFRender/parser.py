@@ -24,5 +24,5 @@ def generate(token_list, font_name, filename):
         else:
             print unichr(w.unicode)
     #output font to the folder
-    fnt.generate("./out-font/"+filename)
+    fnt.generate("./out-font/"+filename+".ttf")
     fnt.close()
